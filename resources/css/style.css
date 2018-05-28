@@ -12,6 +12,7 @@ img{
 .container{
   max-width: 75%;
 }
+@media(max-width:768px){ .row.flex { display: inherit; } }
 /*Jumbotron*/
 .jumbotron{
   background-image: url("../images/coffee.jpg");
