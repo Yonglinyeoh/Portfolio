@@ -1,0 +1,122 @@
+html {
+  font-size: 14px;
+}
+body{
+  line-height: 1.4;
+  font-family: "Open Sans", sans-serif;
+}
+
+img{
+  width: 100%;
+}
+.container{
+  width: 75%;
+}
+/*Jumbotron*/
+.jumbotron{
+  background-image: url("../images/coffee.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  color: white;
+}
+.jumbotron h1{
+  font-size: 5rem;
+  font-family: codystar, cursive;
+}
+.jumbotron p{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+
+/*Universal font settings*/
+
+/*Education*/
+.education{
+  text-align: center;
+  margin: 0.5rem 0;
+}
+.education h2{
+  font-weight: 700;
+  color: #003E74;
+}
+.education p{
+  font-size: 1.2rem;
+}
+.education .image-container{
+  overflow: hidden;
+  height: 30rem;
+}
+.education h3{
+  color: white;
+  font-weight: 600;
+  background-color: #003E74;
+  padding: 0.5rem 0;
+}
+.education .fas{
+  padding-top: 1rem;
+}
+.education li{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.education ul li:nth-child(odd){
+  background-color: #006EAF;
+  border-radius: 15px;
+  color: white;
+}
+/*Project experience*/
+.experience .image-container{
+  height: 15rem;
+  overflow:hidden;
+  margin: 2rem 0;
+}
+.experience{
+  background-color: #003E74;
+  color: white;
+  line-height: 1.5;
+}
+.experience .container{
+  padding: 2rem 0;
+  margin: 2rem auto;
+}
+.experience h2, .experience h3{
+  font-weight: 600;
+}
+/*Skillsets*/
+.skills p:nth-child(odd){
+  background-color:#D24000;
+  color: white;
+}
+.skills h2, .skills h3{
+  font-weight: 700;
+  padding: 1rem 0;
+    color:  #003E74;
+}
+/*portfolio web design*/
+.portfolio{
+  background-color:#002147;
+  color: white;
+}
+.portfolio h1{
+  font-size: 4rem;
+  font-family: codystar, cursive;
+}
+.portfolio h3{
+  font-weight: 600;
+}
+.image-container img{
+  opacity: 0.8;
+  transition: transform .5s,
+              opacity .5s;
+  transition: transform .5s,
+              opacity .5s;
+}
+.image-container img:hover{
+  opacity:1;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
